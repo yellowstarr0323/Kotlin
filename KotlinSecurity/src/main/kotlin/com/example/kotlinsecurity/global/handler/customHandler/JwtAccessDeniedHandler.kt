@@ -1,4 +1,4 @@
-package com.example.kotlinsecurity.global.handler
+package com.example.kotlinsecurity.global.handler.customHandler
 
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse

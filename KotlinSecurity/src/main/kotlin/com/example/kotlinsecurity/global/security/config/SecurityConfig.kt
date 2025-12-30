@@ -1,6 +1,6 @@
 package com.example.kotlinsecurity.global.security.config
 
-import com.example.kotlinsecurity.global.handler.JwtAccessDeniedHandler
+import com.example.kotlinsecurity.global.handler.customHandler.JwtAccessDeniedHandler
 import com.example.kotlinsecurity.global.security.jwt.JwtTokenFilter
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

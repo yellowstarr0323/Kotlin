@@ -105,5 +105,10 @@ class JwtTokenProvider (
         return UsernamePasswordAuthenticationToken(userDetails, null, userDetails.authorities)
     }
 
+    fun getEmailByToken(token: String): String{
+        val claims = parseClaims(token)
+        return claims.subject
+    }
+
 
 }

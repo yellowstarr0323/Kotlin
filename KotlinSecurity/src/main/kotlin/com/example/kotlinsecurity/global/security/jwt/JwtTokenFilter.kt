@@ -16,6 +16,8 @@ class JwtTokenFilter(
         response: HttpServletResponse,
         filterChain: FilterChain
     ) {
+
+
         try {
             val token = jwtTokenProvider.resolveToken(request)
             if(token != null) {
